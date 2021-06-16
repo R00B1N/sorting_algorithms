@@ -5,7 +5,6 @@
  * @a: First integer
  * @b: Second integer
  */
-
 void swapping_integers(int *a, int *b)
 {
 	int x;
@@ -26,16 +25,15 @@ void bubble_sort(int *array, size_t size)
 	int swp = 1;
 
 	if (!array || size < 2)
-	{
 		return;
 	while (swp != 0)
 	{
 		swp = 0;
-		for (k = 0; k < size - 1 - j; k++)
+		for (k = 0; k < size - 1 - i; k++)
 		{
 			if (array[k] > array[k + 1])
 			{
-				swapping_integers(array +  k, array + (k + 1));
+				swapping_integers(array + k, array + (k + 1));
 				print_array((const int *)array, size);
 				swp = 1;
 			}
@@ -43,6 +41,5 @@ void bubble_sort(int *array, size_t size)
 		j++;
 		if (swp == 0)
 			break;
-	}
 	}
 }
