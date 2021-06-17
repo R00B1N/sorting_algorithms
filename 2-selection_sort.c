@@ -14,13 +14,13 @@ void swapping_integers(int *a, int *b)
 	*b = c;
 }
 
-
 /**
  * selection_sort - sorts an array of integers in ascending order
  * using the Selection sort algorithm
  * @array: the array of integers
  * @size: size of the array
  */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, index;
