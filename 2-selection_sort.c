@@ -1,11 +1,11 @@
 #include "sort.h"
 
 /**
- * swap_integers - function that swaps two integers
+ * swapping_integers - function that swaps two integers
  * @a: First integer
  * @b: Second integer
  */
-void swap_integers(int *a, int *b)
+void swapping_integers(int *a, int *b)
 {
 	int c;
 
@@ -43,7 +43,7 @@ void selection_sort(int *array, size_t size)
 		}
 		if (index != i)
 		{
-			swap_integers(array + i, array + index);
+			swapping_integers(array + i, array + index);
 			print_array((const int *)array, size);
 		}
 	}
