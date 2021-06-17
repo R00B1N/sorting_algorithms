@@ -15,7 +15,7 @@ c = *a;
 }
 
 /**
-* partition - partition scheme for Quick Sort algorithm
+* partition - Lomuto partition scheme for Quick Sort algorithm
 * @array: the array
 * @First: the index of the first element
 * @Last: the index of the last element
