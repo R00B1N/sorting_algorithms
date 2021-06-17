@@ -14,7 +14,6 @@ void swapping_integers(int *a, int *b)
 	*b = c;
 }
 
-
 /**
  * selection_sort - sorts an array of integers in ascending order
  * using the Selection sort algorithm
