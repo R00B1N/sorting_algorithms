@@ -26,5 +26,8 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void swapping_integers(int *a, int *b);
 void swapping_nodes(listint_t **list, listint_t *current);
+int partition(int *array, int First, int Last, size_t size);
+void QS(int *array, int First, int Last, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif
